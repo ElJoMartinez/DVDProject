@@ -39,8 +39,7 @@ border-top-right-radius: 3px;
 }
 /*---social-icons-----*/
 .nav {
-	text-align:center;
-	
+		
 }
 .nav ul{
 	padding:0;
@@ -53,9 +52,8 @@ border-top-right-radius: 3px;
 	display:inline-block;
 }
 .nav li a {
-	height:30px;
-	width:30px;
-	display: block;
+
+	display: inline-block;
 }
 .nav li a:hover {
 	zoom: 1;
@@ -141,25 +139,7 @@ border-top-right-radius: 3px;
 	-o-transform: translateY(10px);
 	transform: translateY(10px);
 }
-/*------------end social simptip----------------*/
-.nav li:nth-child(1) a{
-	background: url(../images/img_sprite.png) -7px -9px;
-}
-.nav li:nth-child(2) a{
-	background: url(../images/img_sprite.png) -49px -8px;
-}
-.nav li:nth-child(3) a{
-	background: url(../images/img_sprite.png) -90px -9px;
-}
-.nav li:nth-child(4) a{
-	background: url(../images/img_sprite.png) -130px -8px;
-}
-.nav li:nth-child(5) a{
-	background: url(../images/img_sprite.png) -175px -9px;
-}
-.nav li:nth-child(6) a{
-	background: url(../images/img_sprite.png) -216px -9px;
-}
+
 ul.header_right_box{
 	padding:0;
 	margin: 0 0 0 33%;
