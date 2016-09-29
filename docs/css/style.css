@@ -1686,16 +1686,26 @@ p address {
 	height: 200px;
 	width: 200px;
 }
-.new_header {
+
+.background-content {
 	background-image: url(../images/backgroundnew.jpg);
 	background-repeat: no-repeat;
-    color: #fff;
-    background-color: #8dbfc0;
-    background-position: center!important;
-    background-repeat: no-repeat !important;
-    
-    background-size: 100% ;
-    position: relative;
-    box-shadow: inset 0 .25em .5em rgba(0,0,0,.33);
->>>>>>> e4a6c029054a159a148c14643553eeeaf0e270ed
+	padding-top: 20px;
+	background-size: 100%;
+	height: 362px;
+	margin-top: 30px;
+	color: white;
+	background-color:white;
+}
+.form-control {
+	width: auto;
+}
+.box {
+	background-color: white;
+	color: black;
+	padding:10px;
+	padding-left: 20px;
+	opacity: .89;  /* Opacity for Modern Browsers */
+    filter: alpha(opacity=50);  /* Opacity for IE8 and lower */
+    zoom: 1;  /* Fix for IE7 */
 }
