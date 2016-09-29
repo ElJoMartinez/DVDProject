@@ -1675,27 +1675,18 @@ h2.m_3 {
 }
 }
 .placeholder-img {
-<<<<<<< HEAD
+	
 	width: 50%;
+	border: 1px solid white;
+	background-color: white;
+	box-shadow: 10px 10px grey;
+	margin-bottom: 20px;
+
 }
 p address {
 	float: right;
 	position: relative;
 	width: 50%;
-=======
 	height: 200px;
 	width: 200px;
-}
-.new_header {
-	background-image: url(../images/backgroundnew.jpg);
-	background-repeat: no-repeat;
-    color: #fff;
-    background-color: #8dbfc0;
-    background-position: center!important;
-    background-repeat: no-repeat !important;
-    
-    background-size: 100% ;
-    position: relative;
-    box-shadow: inset 0 .25em .5em rgba(0,0,0,.33);
->>>>>>> e4a6c029054a159a148c14643553eeeaf0e270ed
 }
