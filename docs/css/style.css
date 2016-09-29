@@ -1690,3 +1690,29 @@ p address {
 	height: 200px;
 	width: 200px;
 }
+<<<<<<< HEAD
+=======
+
+.background-content {
+	background-image: url(../images/backgroundnew.jpg);
+	background-repeat: no-repeat;
+	padding-top: 20px;
+	background-size: 100%;
+	height: 362px;
+	margin-top: 30px;
+	color: white;
+	background-color:white;
+}
+.form-control {
+	width: auto;
+}
+.box {
+	background-color: white;
+	color: black;
+	padding:10px;
+	padding-left: 20px;
+	opacity: .89;  /* Opacity for Modern Browsers */
+    filter: alpha(opacity=50);  /* Opacity for IE8 and lower */
+    zoom: 1;  /* Fix for IE7 */
+}
+>>>>>>> e3d2190b2451b8f34fd09cb2133ff46a13f6439b
