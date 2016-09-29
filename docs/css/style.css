@@ -1677,10 +1677,11 @@ h2.m_3 {
 .placeholder-img {
 	
 	width: 50%;
-	border: 1px solid white;
+	border: 2px solid white;
 	background-color: white;
 	box-shadow: 10px 10px grey;
 	margin-bottom: 20px;
+	margin-top: 20px;
 
 }
 p address {
