@@ -19,9 +19,32 @@
 }
 #header-nav {
 	text-align: center;
+	width: auto;
+	padding-right:0px;
+	margin-left: auto;
 	
 }
 
 .nav-pills li {
 	margin-right:0px;
+}
+.header_right{
+	text-align: right;
+	margin-left:auto;
+	margin-right:0px;
+}
+ul.header_right_box {
+	margin-left: 0px;
+	margin-right:0px;
+}
+.nav-pills {
+	padding-left: 25px;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
 }
