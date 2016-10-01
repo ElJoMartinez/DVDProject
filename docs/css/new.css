@@ -86,3 +86,17 @@ display: block;
 #default-pan {
 	font-size: 16px;
 }
+.img-box img {
+	display: inline-block;
+	width:20%;
+	margin-left: 10px;
+	background-image:url(../images/pic8.jpg);
+	background-size: cover;
+	
+	
+	height:100px;
+	margin-top: 10px;
+}
+#pbody {
+	text-align: justify;
+}
