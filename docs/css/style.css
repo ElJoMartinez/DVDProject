@@ -2335,7 +2335,7 @@ div.register-bottom-grid
 }
 .placeholder-img
 {
-    width: 100%;
+    width: 50%;
     margin-top: 20px;
     margin-bottom: 20px;
 
@@ -2380,7 +2380,12 @@ p address
     height: 322px;
 
 }
-.contact-section
+.contact-section p, .contact-section address, .contact-section h2
 {
     width: 50%;
+    margin-right: auto;
+
+}
+.contact-section {
+    display: inline-block;
 }

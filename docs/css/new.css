@@ -64,14 +64,10 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 a.list-group-item:hover {
-	font-size: 22px;
-}
-.carousel-format {
-	width:50%; float: right;
-	vertical-align: middle;
+	background-color: rgba(216,35,42, .37);
 }
 .panel-default {
-	width:70%;float: right;
+	width:75%;float: right;
 	position: relative; 
 	margin-top:-250px;
 }
@@ -98,7 +94,7 @@ display: block;
 	
 }
 #pbody {
-	text-align: justify;
+	text-align: center;
 	overflow: scroll;
 	height: 300px;
 
@@ -106,7 +102,7 @@ display: block;
 
 }
 .img-box a{
-	
+	font-size: 16px;
 	position: relative;
 	bottom: 10px;
 	width:100%;
@@ -120,7 +116,7 @@ display: block;
 	display: block;
 	margin-bottom:20px;
 	padding-left: 10px;
-	width:20%;
+	width:150px;
 	float: left;
 	padding-top:10px;
 
@@ -129,5 +125,28 @@ display: block;
 .img-box a:hover {
 	text-decoration: none;
 	background-color:#262c38;
+	
+}
+
+#panel-heading {
+	font-size: 18px;
+}
+#submit-button {
+	color: #fff;
+	background-color: #d8232a;
+}
+#submit-button:hover {
+	background-color: #262c38;
+}
+.email-contact-form {
+	width: 50%;
+	left: 600px;
+	top: -600px;
+	position: relative;
+	margin:0px;
+}
+
+.mission p {
+	width: 50%;
 	font-size: 18px;
 }
