@@ -184,14 +184,37 @@ a.list-group-item:hover
 .mission p
 {
     font-size: 18px;
-
-    width: 50%;
+    box-shadow: -1px 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+    text-align: justify;
+    padding: 25px;
+    background-color: #fff;
 
     
 }
 .mission
 {
-    padding: 10px;
-    background-color: #fff;
+    padding: 25px;
+    
     box-shadow: -1px 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+    background-color: #262c38;
 }
+.mission h2 {
+	text-align: center;
+	box-shadow: -1px 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+	background-color: #fff;
+}
+.question, .answer {
+	font-size: 26px;
+}
+.answer:first-letter {
+	color: green;
+	font-size: 28px;
+}
+.question:first-letter {
+	color: orange;
+	font-size: 28px;
+}
+.answer {
+	padding-bottom: 15px;
+}
+
