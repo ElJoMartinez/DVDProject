@@ -87,16 +87,47 @@ display: block;
 	font-size: 16px;
 }
 .img-box img {
-	display: inline-block;
-	width:20%;
-	margin-left: 10px;
-	background-image:url(../images/pic8.jpg);
+	
+	width:100%;
+	
+	background-image:url(../images/8.jpg);
 	background-size: cover;
 	
 	
 	height:100px;
-	margin-top: 10px;
+	
 }
 #pbody {
 	text-align: justify;
+	overflow: scroll;
+	height: 300px;
+
+
+
+}
+.img-box a{
+	
+	position: relative;
+	bottom: 10px;
+	width:100%;
+	height: 10px;
+	background-color: #d8232a;
+	color: white;
+	text-align: center;
+	box-shadow: 2px 2px 4px grey;
+}
+.img-box {
+	display: block;
+	margin-bottom:20px;
+	padding-left: 10px;
+	width:20%;
+	float: left;
+	padding-top:10px;
+
+
+}
+.img-box a:hover {
+	text-decoration: none;
+	background-color:#262c38;
+	font-size: 18px;
 }
